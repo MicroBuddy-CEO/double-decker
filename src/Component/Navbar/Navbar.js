@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Navbar.css";
-import { FiBookOpen } from 'react-icons/fi';
+import { TfiBook } from 'react-icons/tfi';
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md';
 
 
@@ -31,20 +31,20 @@ const Navbar = () => {
             </div>
 
             <div className="navbar-start hidden lg:flex">
-            <a className="btn  btn-ghost normal-case text-2xl font-700">BurgerHub</a>
+            <a className="btn btn-ghost normal-case text-2xl font-700">BurgerHub</a>
 
                 <ul className="menu menu-horizontal px-1">
                     {menuItem}
                 </ul>
             </div>
 
-            <div className='navbar-center bg-[#039311] w-[181px] h-[60px] rounded-lg menu-btn text-white'>
-                <p className='text-[20px] font-[800] mx-auto flex justify-items-center leading-none'> MENU <FiBookOpen className='ml-4'/></p>
+            <div className='navbar-center menu-btn'>
+                <p> MENU <TfiBook className='ml-[40px]'/> </p>
             </div>
 
             <div className="navbar-end text-[20px] font-[800]">
                 <p className='mr-10'>+880-1911223344</p>
-                <a className="btn bg-white border-0 text-black text-[20px] font-[800]">NEW YOURK <MdOutlineKeyboardArrowDown className='text-2xl'/></a>
+                <a className="btn bg-white text-black text-[20px] font-[800] border-0">NEW YOURK <MdOutlineKeyboardArrowDown className='text-2xl'/></a>
             </div>
 
         </div>

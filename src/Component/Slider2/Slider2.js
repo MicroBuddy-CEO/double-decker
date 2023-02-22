@@ -40,13 +40,6 @@ const Slider2 = () => {
                     </div>
                 </div>
  
-
-
-
-
-
- 
-
             </div>
     );
 };

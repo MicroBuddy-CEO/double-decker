@@ -1,14 +1,20 @@
-.right-container{
+.right-container {
     display: grid;
     justify-items: center;
     position: relative;
+    height: 80%;
 }
-.contetn-one{
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content-one {
     width: 100px;
     height: 157px;
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 53% 100%, 0 90%);
-    margin: 10px;
-    padding: 10px;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
     background-color: white;
     text-align: center;
     display: flex;
@@ -16,8 +22,41 @@
     justify-content: center;
 }
 
-.tag-line{
+.content-one h3 {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8.5px 24.5px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.content-one p {
+    font-size: 10px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 6px 3.5px;
+}
+
+.content-one h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #D51717;
+    padding: 12px 13.5px;
+}
+
+.nutrition {
     position: absolute;
     bottom: 0;
-    margin-bottom: 70px;;
+    display: flex;
+    justify-items: center;
+
+}
+
+.nutrition p{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.arrow-icon{
+    margin-top: 4px;
+    margin-left: 21px;
 }

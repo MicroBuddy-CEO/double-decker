@@ -5,6 +5,21 @@ ul li {
     font-size: 16px;
 }
 
-.menu-btn{
-    clip-path: polygon(50% 0, 100% 8%, 100% 100%, 0 100%, 0 8%);
+.menu-btn {
+    clip-path: polygon(50% 0, 100% 6%, 100% 100%, 0 100%, 0 6%);
+    width: 181px;
+    height: 60px;
+    background-color: rgba(3, 147, 17, 0.7);
+    border-radius: 8px;
+}
+
+.menu-btn p{
+    line-height: 18px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+    margin: auto;
 }

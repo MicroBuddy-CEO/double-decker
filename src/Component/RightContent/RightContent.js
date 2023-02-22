@@ -1,32 +1,37 @@
 import React from "react";
 import "./RightContent.css";
-import { MdOutlineKeyboardArrowDown } from 'react-icons/md';
+import { IoIosArrowForward } from 'react-icons/io';
 
 
 const RightContent = () => {
   return (
-    <div className="right-container h-[90%]">
-      <div className="flex">
-        <div className="contetn-one">
-          <p className="text-[14px] font-[600]">Calories</p>
-          <p className="text-[10px] font-[500] my-[5px]">Kcal</p>
-          <p className="text-[24px] font-[700] text-[#D41717]">1370</p>
+    <div className="right-container">
+
+      <div className="feature-container">
+        <div className="content-one">
+          <h3>Calories</h3>
+          <p>Kcal</p>
+          <h1>1370</h1>
         </div>
-        <div className="contetn-one">
-          <p className="text-[14px] font-[600]">Fat</p>
-          <p className="text-[10px] font-[500] my-[5px]">g</p>
-          <p className="text-[24px] font-[700] text-[#D41717]">93</p>
+
+        <div className="content-one">
+          <h3>Calories</h3>
+          <p>Kcal</p>
+          <h1>1370</h1>
         </div>
-        <div className="contetn-one">
-          <p className="text-[14px] font-[600]">Protein</p>
-          <p className="text-[10px] font-[500] my-[5px]">g</p>
-          <p className="text-[24px] font-[700] text-[#D41717]">85</p>
+
+        <div className="content-one">
+          <h3>Calories</h3>
+          <p>Kcal</p>
+          <h1>1370</h1>
         </div>
       </div>
 
-      <div className="tag-line">
-        <p className="flex justify-items-center text-[14px] font-[700]">NUTRITION ALLERGENS <MdOutlineKeyboardArrowDown className="text-2xl"/></p>
+      <div className="nutrition">
+        <p>NUTRITION ALLERGENS</p>
+        <p className="arrow-icon"><IoIosArrowForward /></p>
       </div>
+
     </div>
   );
 };

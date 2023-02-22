@@ -2,22 +2,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Karantina:wght@700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
 
-.heading-dd{
+.left-container{
+    margin-top: 220px;
+}
+.btn-new{
+    width: 44px;
+    height: 20px;
+    background-image: url(../Assets/btn-new.jpeg);
+    background-size: cover;
+    text-align: center;
+}
+
+.btn-new p {
+    font-family: 'inter';
+    font-weight: 900;
+    font-size: 10px;
+    color: white;
+    padding: 4px 12px;
+}
+
+
+.dobule-decker  {
     font-family: 'inter';
     font-size: 80px;
     font-weight: 900;
     line-height: 96px;
+    margin-top: 33px;
 }
 
+.pepper-container{
+    margin-top: 10px;
+    display: flex;
+    justify-items: center;
+}
 
+.pepper-container img{
+    width: 25px;
+    height: 25px;
+}
+
+.pepper-container p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 6px;
+}
 .pepper {
     display: flex;
     justify-content: start;
     justify-items: center;
 }
 
-.order-btn{
-    clip-path: polygon(50% 0, 100% 8%, 100% 100%, 0 100%, 0 8%);
+.price_order_btn-conatiner {
+    display: flex;
+    justify-items: center;
+    margin-top: 27px;
+}
+
+.description{
+    font-size: 16px;
+    font-weight: 500px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 38px;
+}
+
+.ingradient-order-price-container{
+    margin-top: 36px;
+}
+
+.ingradient p{
+    font-size: 10px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.ingradient .icon{
+    display: flex;
+    justify-items: center;
+    margin-top: 9px;
+}
+
+.ingradient .icon img{
+    width: 25px;
+    height: 25px;
+    margin-right: 18px;
+}
+
+.order-btn-cont {
+    /* clip-path: polygon(50% 0, 100% 10%, 100% 100%, 0 100%, 0 10%); */
+    width: 191px;
+    height: 49px;
+    /* border-radius: 8px; */
+    text-align: center;
+    background-image: url(../Assets/btn.jpg);
+    background-size: cover;
+}
+
+.order-btn-cont button {
+    padding: 15px 23px;
 }
 
 .price-conta {
