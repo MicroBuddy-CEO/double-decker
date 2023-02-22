@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Karantina:wght@700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Karantina:wght@700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+
+.heading-dd{
+    font-family: 'inter';
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 96px;
+}
+
+
+.pepper {
+    display: flex;
+    justify-content: start;
+    justify-items: center;
+}
+
+.order-btn{
+    clip-path: polygon(50% 0, 100% 8%, 100% 100%, 0 100%, 0 8%);
+}
+
+.price-conta {
+    position: relative;
+}
+
+.price {
+    font-family: 'Karantina';
+    font-size: 50px;
+    color: #00BF13;
+    line-height: 50px;
+}
+
+.sub-price {
+    font-size: 13px;
+    position: absolute;
+    top: -8px;
+    left: 100px;
+    color: #00BF13;
+    font-family: 'Karantina';
+}
+
+.qunatity {
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    background-color: #00BF13;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 2px;
+    color: white;
+    text-align: center;
+}

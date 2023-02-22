@@ -1,0 +1,10 @@
+ul li {
+    margin: 0px 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.menu-btn{
+    clip-path: polygon(50% 0, 100% 8%, 100% 100%, 0 100%, 0 8%);
+}

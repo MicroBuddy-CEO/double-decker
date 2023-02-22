@@ -1,0 +1,23 @@
+.right-container{
+    display: grid;
+    justify-items: center;
+    position: relative;
+}
+.contetn-one{
+    width: 100px;
+    height: 157px;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 53% 100%, 0 90%);
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tag-line{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 70px;;
+}
