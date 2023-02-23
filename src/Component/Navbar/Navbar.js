@@ -38,10 +38,8 @@ const Navbar = () => {
                 </ul>
             </div>
 
-                <div className='menu-btn-1'>
                 <div className='navbar-center menu-btn'>
                     <p> MENU <TfiBook className='ml-[40px]'/> </p>
-                </div>
                 </div>
 
   

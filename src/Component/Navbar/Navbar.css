@@ -5,25 +5,20 @@ ul li {
     font-size: 16px;
 }
 
-
-.menu-btn-1{
-
-    border: 2px solid black;
-    background-color: black;
-
-    border-radius: 8px;
-
-    width: 200px;
-    height: 65px;
-}
-
-
-.menu-btn {
-    clip-path: polygon(50% 0, 100% 5%, 100% 100%, 0 100%, 0 5%);
+.menu-btn{
+    clip-path: polygon(50% 2%, 100% 8%, 100% 100%, 0 100%, 0 8%);
     width: 181px;
     height: 60px;
     background-color: rgba(3, 147, 17, 0.7);
-    border-radius: 6px;
+
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+/* 
+    background-image: url(../Assets/menu-btn.jpg);
+    background-size: cover; */
 }
 
 .menu-btn p{
@@ -34,7 +29,5 @@ ul li {
     font-weight: 800;
     font-size: 20px;
     color: white;
-    margin-top: 20px;
     text-align: center;
-
 }
