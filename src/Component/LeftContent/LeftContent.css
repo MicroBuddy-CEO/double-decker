@@ -87,12 +87,15 @@
 }
 
 .order-btn-cont {
+    clip-path: polygon(50% 0%, 100% 5%, 100% 100%, 0 100%, 0 5%);
+
     width: 191px;
     height: 49px;
     text-align: center;
-    background-image: url(../Assets/btn.jpg);
-    background-size: cover;
+    /* background-image: url(../Assets/btn.jpg); */
+    /* background-size: cover; */
     margin-top: 27px;
+    border-radius: 12px;
 }
 
 .order-btn-cont button {
