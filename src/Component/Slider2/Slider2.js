@@ -36,7 +36,7 @@ const Slider2 = () => {
                     </div>
                     <div className="absolute flex justify-between transform -translate-y-1/2  bottom-0 left-[18%]">
                         <a href="#slide2" className="btn btn-circle border-0 bg-[#ffff00] text-black mr-[150px]">❮</a>
-                        <a href="#slide1" className="btn btn-circle border-0 bg-white text-black">❯</a>
+                        <a href="#slide1" className="btn btn-circle border-0 bg-white text-black"> ❯ </a>
                     </div>
                 </div>
  

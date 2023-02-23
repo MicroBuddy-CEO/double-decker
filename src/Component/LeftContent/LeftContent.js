@@ -59,7 +59,7 @@ const LeftContent = () => {
         </div>
 
 
-        <div className="burger-navigation mt-[50px] flex">
+        <div className="burger-navigation flex">
           <img src={burger} className="w-[99px] h-[92px]" alt="" />
           <img src={burger} className="w-[99px] h-[92px]" alt="" />
           <img src={burger} className="w-[99px] h-[92px]" alt="" />

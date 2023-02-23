@@ -3,8 +3,9 @@
 
 
 .left-container{
-    margin-top: 220px;
+    margin-top: 2rem;
 }
+
 .btn-new{
     width: 44px;
     height: 20px;
@@ -27,13 +28,13 @@
     font-size: 80px;
     font-weight: 900;
     line-height: 96px;
-    margin-top: 33px;
+    margin-top: 10px;
 }
 
 .pepper-container{
-    margin-top: 10px;
     display: flex;
     justify-items: center;
+    margin-top: 1rem;
 }
 
 .pepper-container img{
@@ -55,14 +56,13 @@
 .price_order_btn-conatiner {
     display: flex;
     justify-items: center;
-    margin-top: 27px;
 }
 
 .description{
     font-size: 16px;
     font-weight: 500px;
     color: rgba(0, 0, 0, 0.6);
-    margin-top: 38px;
+    margin-top: 40px;
 }
 
 .ingradient-order-price-container{
@@ -78,7 +78,6 @@
 .ingradient .icon{
     display: flex;
     justify-items: center;
-    margin-top: 9px;
 }
 
 .ingradient .icon img{
@@ -88,13 +87,12 @@
 }
 
 .order-btn-cont {
-    /* clip-path: polygon(50% 0, 100% 10%, 100% 100%, 0 100%, 0 10%); */
     width: 191px;
     height: 49px;
-    /* border-radius: 8px; */
     text-align: center;
     background-image: url(../Assets/btn.jpg);
     background-size: cover;
+    margin-top: 27px;
 }
 
 .order-btn-cont button {
@@ -134,4 +132,9 @@
     padding: 2px;
     color: white;
     text-align: center;
+    margin-bottom: 29px;
+}
+
+.burger-navigation{
+    margin-top: 2rem;
 }

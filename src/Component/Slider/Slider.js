@@ -1,43 +1,69 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import img1 from "../Assets/burger2.png"
+import React, { useState } from 'react';
+import { Transition } from 'react-transition-group';
+import burger from "../Assets/burger2.png";
 import "./Slider.css";
 
-// import required modules
-import { Autoplay, Pagination, Navigation } from "swiper";
-
 const Slider = () => {
+  const [slideIndex, setSlideIndex] = useState(0);
+
+  const slides = [
+    {
+      src: `${burger}`
+    },
+    {
+      src: `${burger}`
+    },
+    {
+      src:`${burger}`
+    },
+  ]
+
+  const transitionStyles = {
+    entering: {
+      transition: 'ease-in-out',
+      transform: 'translateX(100%) scale(.000001)'
+    },
+    entered: {
+      transition: 'all .5s .1s',
+      transform: 'translateX(0%) scale(1)'
+    },
+    exiting: {
+      transition: 'all 1s ease-out',
+      transform: 'translateX(-1000%)  scale(.5)'
+    },
+    exited: {
+      transition: 'all 1s ease-out',
+      transform: 'translateX(1000%) scale(.5)'
+    }
+  }
 
 
+  const handleNextClick = () => {
+    const nextIndex = slideIndex === slides.length - 1 ? 0 : slideIndex + 1;
+    setSlideIndex(nextIndex);
+  };
 
-    const pagination = {
-        clickable: true,
-        renderBullet: function (index, className) {
-            
-            return '<span class="' + className + '">' + (index + 1) + "</span>";
-        },
-    };
+  const handlePreviousClick = () => {
+    const previousIndex = slideIndex === 0 ? slides.length - 1 : slideIndex - 1;
+    setSlideIndex(previousIndex);
+  };
 
-    return (
-        <div className=" border border-red-500">
-            <Swiper
-                pagination={pagination}
-                modules={[Pagination]}
-                className="mySwiper"
-            >
-                <SwiperSlide><img src={img1} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={img1} alt="" /></SwiperSlide>
+  return (
+    <div className=''>
+      {slides.map((slide, index) => (
+        <Transition key={index} in={index === slideIndex} timeout={500} appear mountOnEnter unmountOnExit>
+          {state => ( <img src={slide.src} style={{ ...transitionStyles[state], width: "600px", height: "150%"}}/>)}
+        </Transition>
+      ))}
 
-            </Swiper>
-        </div>
-    );
-}
-
+    <div className='text-center  mt-[-30px]'>
+      <button onClick={handleNextClick} className="left-btn">❮</button>
+      <button onClick={handlePreviousClick} className="right-btn">❯</button>
+    </div>
+ 
+    </div>
+  );
+};
 
 export default Slider;

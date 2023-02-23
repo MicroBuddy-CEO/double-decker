@@ -38,10 +38,13 @@ const Navbar = () => {
                 </ul>
             </div>
 
-            <div className='navbar-center menu-btn'>
-                <p> MENU <TfiBook className='ml-[40px]'/> </p>
-            </div>
+                <div className='menu-btn-1'>
+                <div className='navbar-center menu-btn'>
+                    <p> MENU <TfiBook className='ml-[40px]'/> </p>
+                </div>
+                </div>
 
+  
             <div className="navbar-end text-[20px] font-[800]">
                 <p className='mr-10'>+880-1911223344</p>
                 <a className="btn bg-white text-black text-[20px] font-[800] border-0">NEW YOURK <MdOutlineKeyboardArrowDown className='text-2xl'/></a>
