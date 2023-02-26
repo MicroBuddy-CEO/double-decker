@@ -3,27 +3,24 @@ import LeftContent from "../LeftContent/LeftContent";
 import Navbar from "../Navbar/Navbar";
 import RightContent from "../RightContent/RightContent";
 import Slider from "../Slider/Slider";
-import Slider2 from "../Slider2/Slider2";
 import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="home-container h-[100vh]">
-      <Navbar></Navbar>
+    <div className="home-container">
 
-      <div className="flex justify-between items-center relative  h-[90vh] px-20  ">
+      <Navbar/>
 
-        <div className="h-[100%] w-[100%]">
-          <LeftContent/>
-        </div>
-        <div className="slider absolute left-[34%] z-50 mt-10">
-          <Slider></Slider>
-        </div> 
-        <div className="RightContent h-[100%] w-[100%]">
-          <RightContent/>
-        </div>
+      <div className="body-container">
+        
+        <div className="body-leftContainer"> <LeftContent/> </div>
+        
+        <div className="body-slideContainer"> <Slider/> </div>
+
+        <div className="body-rightContainer"> <RightContent/> </div>
 
       </div>
+
     </div>
   );
 };

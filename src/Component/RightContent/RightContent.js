@@ -7,6 +7,7 @@ const RightContent = () => {
   return (
     <div className="right-container">
 
+      {/* Features */}
       <div className="feature-container">
         <div className="content-one">
           <h3>Calories</h3>
@@ -27,6 +28,7 @@ const RightContent = () => {
         </div>
       </div>
 
+      {/* Bottom Nutrition */}
       <div className="nutrition">
         <p>NUTRITION ALLERGENS</p>
         <p className="arrow-icon"><IoIosArrowForward /></p>

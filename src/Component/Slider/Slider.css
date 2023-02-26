@@ -1,26 +1,23 @@
-.left-btn{
+.slider-container {
+    margin-top: 80px;
+  }
+  
+  .nav-btn {
+    color: black;
+    border: none;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 700;
+    font-size: larger;
+  }
+  
+  .left-btn {
     background-color: #ffff00;
-    margin-right: 48px;
-    color: black;
-    border: none;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    padding: 5px;
-    font-weight: 700;
-    font-size: larger;
     margin-right: 50px;
-}
-
-.right-btn{
+  }
+  
+  .right-btn {
     background-color: white;
-    margin-right: 48px;
-    color: black;
-    border: none;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    padding: 5px;
-    font-weight: 700;
-    font-size: larger;
-}
+  }

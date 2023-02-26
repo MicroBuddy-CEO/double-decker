@@ -1,6 +1,4 @@
 import React from "react";
-import { GiChiliPepper, GiTomato } from "react-icons/gi";
-import { TbPepper, TbBrandCucumber } from "react-icons/tb";
 import "./LeftContent.css";
 import burger from "../Assets/burger2.png";
 import pepper from "../Assets/pepper.jpg";
@@ -12,20 +10,17 @@ const LeftContent = () => {
   return (
       <div className="left-container">
 
-        <div className="btn-new">
-          <p>New</p>
-        </div>
-        <h1 className="dobule-decker">
-          THE DOUBLE <br /> DECKER
-        </h1>
+        <div className="btn-new"> <p> New </p> </div>
+
+        <h1 className="dobule-decker"> THE DOUBLE <br /> DECKER </h1>
 
         {/* Pepper & Spicy Section */}
-        <div className="pepper-container text-xl mt-[10px] text-[#D41717]">
-          <img src={pepper} alt="" />
-          <img src={pepper} alt="" />
-          <img src={pepper} alt="" />
-          <img src={pepper} alt="" className="opacity-40"/>
-          <img src={pepper} alt="" className="opacity-40"/>
+        <div className="pepper-container">
+          <img src={pepper} alt="pepper" />
+          <img src={pepper} alt="pepper" />
+          <img src={pepper} alt="pepper" />
+          <img src={pepper} alt="pepper" className="opacity-40"/>
+          <img src={pepper} alt="pepper" className="opacity-40"/>
           <p>Spicy</p>
         </div>
 
@@ -36,21 +31,22 @@ const LeftContent = () => {
           porttitot. Proin quis tortor nisi.
         </p>
 
+        {/* Ingredients and Order Button */}
         <div className="ingradient-order-price-container">
+
+          {/* Ingredients */}
           <div className="ingradient">
-            <p className="text-[10px] text-slate-400 ">INGREDIENTS</p>
+            <p>INGREDIENTS</p>
             <div className="icon">
-              <img src={tomato} alt="" />
-              <img src={cucumber} alt="" />
+              <img src={tomato} alt="tomato" />
+              <img src={cucumber} alt="cucumber" />
             </div>
           </div>
+
+          {/* Order Button */}
           <div className="price_order_btn-conatiner">
-
-            <div className="btn order-btn-cont border-0">
-            <button>Order Now</button>
-            </div>
-
-            <div className="ml-10 price-conta">
+            <div className="btn order-btn-cont"><button>Order Now</button></div>
+            <div className="price-container">
               <p className="price">$12.99 </p>
               <p className="sub-price">$14.99</p>
               <p className="qunatity">+03</p>
@@ -58,13 +54,13 @@ const LeftContent = () => {
           </div>
         </div>
 
-
-        <div className="burger-navigation flex">
-          <img src={burger} className="w-[99px] h-[92px]" alt="" />
-          <img src={burger} className="w-[99px] h-[92px]" alt="" />
-          <img src={burger} className="w-[99px] h-[92px]" alt="" />
-          <img src={burger} className="w-[99px] h-[92px]" alt="" />
-          <img src={burger} className="w-[99px] h-[92px]" alt="" />
+        {/*Left Bottom Burger Navigation */}
+        <div className="burger-navigation">
+          <img src={burger} alt="burger" />
+          <img src={burger} alt="burger" />
+          <img src={burger} alt="burger" />
+          <img src={burger} alt="burger" />
+          <img src={burger} alt="burger" />
         </div>
       </div>
   );

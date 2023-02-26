@@ -1,7 +1,6 @@
-
 import React, { useState } from 'react';
 import { Transition } from 'react-transition-group';
-import burger from "../Assets/burger2.png";
+import burger1 from "../Assets/burger2.png";
 import "./Slider.css";
 
 const Slider = () => {
@@ -9,19 +8,19 @@ const Slider = () => {
 
   const slides = [
     {
-      src: `${burger}`
+      src: `${burger1}`
     },
     {
-      src: `${burger}`
+      src: `${burger1}`
     },
     {
-      src:`${burger}`
+      src:`${burger1}`
     },
   ]
 
   const transitionStyles = {
     entering: {
-      transition: 'ease-in-out',
+      transition: 'ease-in',
       transform: 'translateX(100%) scale(.000001)'
     },
     entered: {
@@ -30,10 +29,10 @@ const Slider = () => {
     },
     exiting: {
       transition: 'all 1s ease-out',
-      transform: 'translateX(-1000%)  scale(.5)'
+      transform: 'translateX(-1000%) scale(.5)'
     },
     exited: {
-      transition: 'all 1s ease-out',
+      transition: '1s ease-out',
       transform: 'translateX(1000%) scale(.5)'
     }
   }
@@ -50,16 +49,21 @@ const Slider = () => {
   };
 
   return (
-    <div className=''>
-      {slides.map((slide, index) => (
+    <div className='slider-container'>
+      
+      <div>
+        {/* Main SLider Image */}
+       {slides.map((slide, index) => (
         <Transition key={index} in={index === slideIndex} timeout={500} appear mountOnEnter unmountOnExit>
-          {state => ( <img src={slide.src} style={{ ...transitionStyles[state], width: "600px", height: "150%"}}/>)}
+          {state => ( <img src={slide.src} style={{ ...transitionStyles[state], width: "100%", height: "100%"}}/>)}
         </Transition>
-      ))}
+      ))} 
+      </div>
 
-    <div className='text-center  mt-[-30px]'>
-      <button onClick={handleNextClick} className="left-btn">❮</button>
-      <button onClick={handlePreviousClick} className="right-btn">❯</button>
+    {/* Slide Control Button */}
+    <div className='text-center'>
+      <button onClick={handleNextClick} className="left-btn nav-btn">❮</button>
+      <button onClick={handlePreviousClick} className="right-btn nav-btn">❯</button>
     </div>
  
     </div>
