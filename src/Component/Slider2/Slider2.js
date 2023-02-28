@@ -31,6 +31,8 @@ const Slider2 = () => {
 
                 <div id="slide3" className="carousel-item relative w-full">
                     <div className='img-container '>
+    
+
                     <img src={img1} className="w-[643px] h-[565px]" />
                     <img src={img1} className="w-[443px] h-[365px] mt-[100px] ml-[250px]" /> 
                     </div>

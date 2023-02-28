@@ -19,8 +19,8 @@
 }
 
 .body-slideContainer{
+    width: 100%;
     position: absolute;
-    left: 34%;
     z-index: 50;
 }
 

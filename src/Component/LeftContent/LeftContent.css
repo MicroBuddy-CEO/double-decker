@@ -87,12 +87,14 @@
 }
 
 .order-btn-cont {
-  clip-path: polygon(50% 0%, 100% 5%, 100% 100%, 0 100%, 0 5%);
+  clip-path: polygon(50% 0%, 100% 10%, 100% 100%, 0 100%, 0 10%);
   width: 191px;
   height: 49px;
   text-align: center;
   margin-top: 27px;
-  border-radius: 12px;
+  border-radius: 10px;
+  /* border-top-left-radius: 15px;
+  border-top-right-radius: 15px; */
 }
 
 .order-btn-cont button {

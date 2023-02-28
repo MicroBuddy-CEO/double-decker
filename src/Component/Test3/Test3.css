@@ -1,0 +1,65 @@
+.vsb{
+    width: 500px;
+    margin: 0px auto;
+    border: 1px solid green;
+    animation: slideMe .7s ease-in;
+}
+
+
+@keyframes slideMe {
+
+    0%{
+        transform: skewX(53deg) translateX(-500px);
+        opacity: 0;
+        }
+        
+        60%{
+        transform: translateX(0px);
+        }
+        
+        62%{
+        transform: skewX(0deg) translateX(30px);
+        
+        }
+        70%{
+        transform: skew(-20deg);
+        opacity: 1;
+        }
+        
+        90%{
+        transform: skew(-5deg)
+        }
+        
+        100%{
+        transform: skew(0deg)
+        
+        }
+
+}
+
+.cursor{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .1s;
+}
+
+.cursor2{
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: .15s;
+}

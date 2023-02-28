@@ -1,8 +1,12 @@
-.img-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+.caro-contai{
+    overflow: hidden;
 }
+
+.corousel{
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
 
 @keyframes slide-in {
 
@@ -24,4 +28,12 @@
         opacity: 0;
         display: none;
     }
+}
+
+img {
+    animation: slide-in 2000ms normal ;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    width: 300px;
+    height: 300px;
 }

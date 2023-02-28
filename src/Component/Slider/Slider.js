@@ -4,6 +4,7 @@ import burger1 from "../Assets/burger2.png";
 import "./Slider.css";
 
 const Slider = () => {
+  
   const [slideIndex, setSlideIndex] = useState(0);
 
   const slides = [
@@ -28,11 +29,11 @@ const Slider = () => {
       transform: 'translateX(0%) scale(1)'
     },
     exiting: {
-      transition: 'all 1s ease-out',
+      transition: 'linear .5',
       transform: 'translateX(-1000%) scale(.5)'
     },
     exited: {
-      transition: '1s ease-out',
+      transition: 'linear .5',
       transform: 'translateX(1000%) scale(.5)'
     }
   }
