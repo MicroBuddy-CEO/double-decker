@@ -1,4 +1,4 @@
-
+/* 
 .cursor{
   position: fixed;
   width: 50px;
@@ -9,7 +9,7 @@
   top: 0;
   pointer-events: none;
   transform: translate(-50%, -50%);
-  transition: .5s;
+  transition: .1s;
 }
 
 .cursor2{
@@ -23,5 +23,5 @@
   top: 0;
   pointer-events: none;
   transform: translate(-50%, -50%) .5s;
-  transition: 5s;
-}
+  transition: .25s;
+} */

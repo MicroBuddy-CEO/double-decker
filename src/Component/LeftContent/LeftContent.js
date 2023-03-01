@@ -8,7 +8,7 @@ import cucumber from "../Assets/cucumber.jpg";
 
 const LeftContent = () => {
   return (
-      <div className="left-container">
+      <div className="left-container h-[96vh] border border-black">
 
         <div className="btn-new"> <p> New </p> </div>
 
@@ -55,13 +55,14 @@ const LeftContent = () => {
         </div>
 
         {/*Left Bottom Burger Navigation */}
-        <div className="burger-navigation">
+        {/* <div className="burger-navigation">
           <img src={burger} alt="burger" />
           <img src={burger} alt="burger" />
           <img src={burger} alt="burger" />
           <img src={burger} alt="burger" />
           <img src={burger} alt="burger" />
-        </div>
+        </div> */}
+
       </div>
   );
 };

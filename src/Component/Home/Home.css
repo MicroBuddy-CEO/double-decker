@@ -1,6 +1,7 @@
 .home-container {
     background: linear-gradient(to right, white 53%, rgba(251, 213, 16, 1) 47%);
     height: 100vh;
+    overflow: hidden;
 }
 
 .body-container{
@@ -19,9 +20,9 @@
 }
 
 .body-slideContainer{
-    width: 100%;
+    width: 80%;
     position: absolute;
-    z-index: 50;
+    right: -200px;
 }
 
 .body-rightContainer{

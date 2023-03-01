@@ -5,7 +5,7 @@ import { IoIosArrowForward } from 'react-icons/io';
 
 const RightContent = () => {
   return (
-    <div className="right-container">
+    <div className="right-container h-[96vh]">
 
       {/* Features */}
       <div className="feature-container">

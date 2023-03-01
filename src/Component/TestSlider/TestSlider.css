@@ -1,6 +1,11 @@
-.slider, .slide img  {
+.slider  {
     width: 100%;
     height: 100%;
+  }
+
+  .slide img  {
+    width: 80%;
+    height: 80%;
   }
   
   .slide {
@@ -15,11 +20,9 @@
   }
   
   .prev-slide {
-    opacity: 0;
+    opacity: 1;
     transform: scale(0);
     transition: all 1s;
   }
 
-  .center .initialSlide{
-    border: 1px solid red;
-  }
+ 
