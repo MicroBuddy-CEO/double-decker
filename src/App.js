@@ -1,7 +1,5 @@
 import './App.css';
 import Home from './Component/Home/Home';
-import Slider from './Component/Slider/Slider';
-import TestSlider from './Component/TestSlider/TestSlider';
 
 function App() {
 
@@ -12,15 +10,11 @@ function App() {
   // })
   
   return (
-    <div className='App-Container'>
-        {/* <Home /> */}
-
-        <TestSlider/>
-
+    <div className='App'>
+        <Home />
+        
         {/* <div className="cursor"></div>
         <div className="cursor2" ></div> */}
-
-
     </div>
   );
 }

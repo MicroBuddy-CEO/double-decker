@@ -1,8 +1,7 @@
 import React from "react";
-import LeftContent from "../LeftContent/LeftContent";
 import Navbar from "../Navbar/Navbar";
-import RightContent from "../RightContent/RightContent";
-import Slider from "../Slider/Slider";
+import Test from "../Test/Test";
+import TestSlider from "../TestSlider/TestSlider";
 import "./Home.css";
 
 const Home = () => {
@@ -10,17 +9,8 @@ const Home = () => {
     <div className="home-container">
 
       <Navbar/>
-
-      <div className="body-container">
-        
-        <div className="body-leftContainer"> <LeftContent/> </div>
-        
-        <div className="body-slideContainer mt-32"> <Slider/> </div>
-
-        <div className="body-rightContainer"> <RightContent/> </div>
-
-      </div>
-
+      <TestSlider/>
+    
     </div>
   );
 };

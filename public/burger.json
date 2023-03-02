@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "title": "The Double Decker",
+        "description": "Sed nec consequat lotem. phosellus convallis ante eu augue finibus maximus. In non ex id ultricies. Suspendisse diam id elit looreet porttitot. Proin quis tortor nisi.",
+        "price": "12.99",
+        "calories": "1370",
+        "fat": "93",
+        "proteins": "85"
+    },
+    {
+        "id": "2",
+        "title": "The Triple Decker",
+        "description": "Sed nec consequat lotem. phosellus convallis ante eu augue finibus maximus. In non ex id ultricies. Suspendisse diam id elit looreet porttitot. Proin quis tortor nisi.",
+        "price": "13.99",
+        "calories": "1371",
+        "fat": "94",
+        "proteins": "86"
+    },
+    {
+        "id": "3",
+        "title": "The Double Decker",
+        "description": "Sed nec consequat lotem. phosellus convallis ante eu augue finibus maximus. In non ex id ultricies. Suspendisse diam id elit looreet porttitot. Proin quis tortor nisi.",
+        "price": "12.99",
+        "calories": "1370",
+        "fat": "93",
+        "proteins": "85"
+    },
+    {
+        "id": "4",
+        "title": "The Triple Decker",
+        "description": "Sed nec consequat lotem. phosellus convallis ante eu augue finibus maximus. In non ex id ultricies. Suspendisse diam id elit looreet porttitot. Proin quis tortor nisi.",
+        "price": "13.99",
+        "calories": "1371",
+        "fat": "94",
+        "proteins": "86"
+    },
+    {
+        "id": "5",
+        "title": "The Double Decker",
+        "description": "Sed nec consequat lotem. phosellus convallis ante eu augue finibus maximus. In non ex id ultricies. Suspendisse diam id elit looreet porttitot. Proin quis tortor nisi.",
+        "price": "12.99",
+        "calories": "1370",
+        "fat": "93",
+        "proteins": "85"
+    },
+    {
+        "id": "6",
+        "title": "The Triple Decker",
+        "description": "Sed nec consequat lotem. phosellus convallis ante eu augue finibus maximus. In non ex id ultricies. Suspendisse diam id elit looreet porttitot. Proin quis tortor nisi.",
+        "price": "13.99",
+        "calories": "1371",
+        "fat": "94",
+        "proteins": "86"
+    }
+]

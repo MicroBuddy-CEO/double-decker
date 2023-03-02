@@ -2,7 +2,6 @@
     display: grid;
     justify-items: center;
     position: relative;
-    border: 1px solid red;
 }
 
 .feature-container {

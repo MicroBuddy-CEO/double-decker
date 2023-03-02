@@ -8,7 +8,7 @@
 .btn-new {
   width: 44px;
   height: 20px;
-  background-image: url(../Assets/btn-new.jpeg);
+  background-image: url(../../Assets/btn-new.jpeg);
   background-size: cover;
   text-align: center;
 }

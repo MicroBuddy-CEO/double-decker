@@ -1,9 +1,9 @@
 import React from "react";
-import "./RightContent.css";
+import "./SlideOneRight.css";
 import { IoIosArrowForward } from 'react-icons/io';
 
 
-const RightContent = () => {
+const SlideOneRight = () => {
   return (
     <div className="right-container h-[96vh]">
 
@@ -11,20 +11,20 @@ const RightContent = () => {
       <div className="feature-container">
         <div className="content-one">
           <h3>Calories</h3>
-          <p>Kcal</p>
-          <h1>1370</h1>
+          <p>K cal</p>
+          <h1>1371</h1>
         </div>
 
         <div className="content-one">
-          <h3>Calories</h3>
-          <p>Kcal</p>
-          <h1>1370</h1>
+          <h3>Fat</h3>
+          <p>K cal</p>
+          <h1>96</h1>
         </div>
 
         <div className="content-one">
-          <h3>Calories</h3>
-          <p>Kcal</p>
-          <h1>1370</h1>
+          <h3>Protien</h3>
+          <p>K cal</p>
+          <h1>86</h1>
         </div>
       </div>
 
@@ -38,4 +38,4 @@ const RightContent = () => {
   );
 };
 
-export default RightContent;
+export default SlideOneRight;
