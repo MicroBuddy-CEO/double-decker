@@ -93,8 +93,6 @@
   text-align: center;
   margin-top: 27px;
   border-radius: 10px;
-  /* border-top-left-radius: 15px;
-  border-top-right-radius: 15px; */
 }
 
 .order-btn-cont button {
@@ -103,7 +101,8 @@
 
 .price-container {
   position: relative;
-  margin-left: 2.5rem;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .price {

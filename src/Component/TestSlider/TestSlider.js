@@ -53,12 +53,12 @@ const TestSlider = () => {
 
 
     return (
-        <div className="relative w-screen h-screen overflow-hidden ">
+        <div className="relative w-screen h-screen overflow-hidden">
 
 
 
             {/* Main Slider */}
-            <div className="ml-[450px] mt-32 ">
+            <div className="ml-[440px] mt-32 w-full absolute z-50">
                 <Slider {...mainSlider}
                     asNavFor={slider2}
                     ref={slider => (setSlider1(slider))}
@@ -72,8 +72,10 @@ const TestSlider = () => {
                 </Slider>
             </div>
 
+
+
             {/* Thumbnails Slider */}
-             <div className=" absolute bottom-10 left-40 ml-50px w-[500px] z-50">
+             <div className=" absolute bottom-[35px] left-40 ml-50px w-[500px] z-50">
                 <Slider
                     asNavFor={slider1}
                     ref={slider => (setSlider2(slider))}
@@ -82,22 +84,23 @@ const TestSlider = () => {
                     focusOnSelect={true}
                 >
                     <div>
-                        <h3 className="w-[50px]"> <img src={one} alt="burger" /> </h3>
+                        <h3 className="w-[80px]"> <img src={one} alt="burger" /> </h3>
                     </div>
                     <div>
-                        <h3 className="w-[50px]"> <img src={one} alt="burger" /> </h3>
+                        <h3 className="w-[80px]"> <img src={one} alt="burger" /> </h3>
                     </div>
                     <div>
-                        <h3 className="w-[50px]"> <img src={one} alt="burger" /> </h3>
+                        <h3 className="w-[80px]"> <img src={one} alt="burger" /> </h3>
                     </div>
                     <div>
-                        <h3 className="w-[50px]"> <img src={one} alt="burger" /> </h3>
+                        <h3 className="w-[80px]"> <img src={one} alt="burger" /> </h3>
                     </div>
                     <div>
-                        <h3 className="w-[50px]"> <img src={one} alt="burger" /> </h3>
+                        <h3 className="w-[80px]"> <img src={one} alt="burger" /> </h3>
                     </div>
                 </Slider>
             </div> 
+
 
             {/* Background Slider */}
             <div className="absolute top-0 left-0  w-[100%] mx-auto">
@@ -141,9 +144,6 @@ const TestSlider = () => {
                             <div className="w-[50%]"><SlideOneRight /></div>
                         </div>
                     </div>
-
-                    
-                    
                 </Slider>
             </div>
 
